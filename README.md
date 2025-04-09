@@ -35,16 +35,16 @@ Edit Configuration (optional):
 Replace the EDEX URL (http://edex-cloud.unidata.ucar.edu) with your local server if applicable.
 Update station IDs or time ranges as needed.
 
-Customization
+Customization: 
 Station IDs: Replace with valid ICAO codes (e.g., KSEA for Seattle) or radar site codes.
 Time Range: Adjust timedelta values to change the data window (e.g., hours=2).
 Parameters: Add or modify requested parameters (e.g., pressure, dewpoint) in the setParameters call.
-Troubleshooting
+Troubleshooting: 
 Connection Errors: Verify the EDEX URL and your internet connection. The default server may occasionally be unavailable.
 Missing Data: Ensure the station ID and parameters are valid for the chosen data type.
 Plotting Issues: Confirm matplotlib and cartopy are installed correctly.
 Contributing
 Feel free to submit pull requests or issues for improvements, bug fixes, or additional script ideas!
 
-License
+License: 
 This project is unlicensed and free for use. It is provided "as is" with no warranties.
